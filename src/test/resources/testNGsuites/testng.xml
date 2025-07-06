@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Test Suite" thread-count="3" parallel="methods">
+    <listeners>
+        <listener class-name="hybridAutomation.Core.TestListener"/>
+    </listeners>
+    <test name="TestNG Tests" enabled="true">
+        <classes>
+            <class name="hybridAutomation.tests.testng.API.Basics"/>
+            <class name="hybridAutomation.tests.testng.UI.Demo"/>
+        </classes>
+    </test>
+</suite>

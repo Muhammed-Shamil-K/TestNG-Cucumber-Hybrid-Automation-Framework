@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Test Suite" thread-count="3" parallel="methods">
+    <test name="Cucumber Tests" enabled="true">
+        <classes>
+            <class name="hybridAutomation.tests.cucumber.cucumberOptions.TestRunner"/>
+        </classes>
+    </test>
+</suite>

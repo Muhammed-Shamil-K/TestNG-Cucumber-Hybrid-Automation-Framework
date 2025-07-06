@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests" thread-count="3" parallel="methods">
+    <listeners>
+        <listener class-name="hybridAutomation.Core.TestListener"/>
+    </listeners>
+    <test name="Cucumber Tests" enabled="true">
+        <classes>
+            <class name="hybridAutomation.tests.cucumber.cucumberOptions.TestRunner"/>
+        </classes>
+    </test>
+    <test name="TestNG Tests" enabled="true">
+        <classes>
+            <class name="hybridAutomation.tests.testng.UI.Demo"/>
+            <class name="hybridAutomation.tests.testng.API.Basics"/>
+        </classes>
+    </test>
+</suite>
