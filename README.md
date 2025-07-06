@@ -25,7 +25,8 @@ Create a folder where you want to clone the project code.
 Right click on the folder and open terminal from that location
 Clone the  project by running the below command in terminal
 
-`git clone `
+`git clone git@github.com:Muhammed-Shamil-K/TestNG-Cucumber-Hybrid-Automation-Framework.git` for SSH
+`git clone https://github.com/Muhammed-Shamil-K/TestNG-Cucumber-Hybrid-Automation-Framework.git` for HTTPS
 
 Go to IDE and open the cloned project by using File → Open menu option
 Refresh the maven for downloading all dependencies
